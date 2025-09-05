@@ -11,7 +11,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CreateUserEvent {
+public class ProduceUserEvent {
     private UUID versapathUserId;
     private String email;
     private String lastName;
