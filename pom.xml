@@ -6,7 +6,7 @@
 
     <groupId>org.common</groupId>
     <artifactId>versapath-events</artifactId>
-    <version>1.4</version>
+    <version>1.6</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
