@@ -1,4 +1,4 @@
-package org.common.event.producer;
+package org.common.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
