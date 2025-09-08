@@ -17,4 +17,5 @@ public class ProduceUserEvent {
     private String lastName;
     private String firstName;
     private String username;
+    private String password;
 }
