@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class UpdateSkillEvent {
-    private Long courseId; // Moodle course id
+    private int courseId; // Moodle course id
     private String name; // versapath capsule name
     List<SkillAtom> skillAtoms;
 }
