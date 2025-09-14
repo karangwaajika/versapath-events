@@ -14,5 +14,5 @@ import java.util.List;
 public class UpdateSkillEvent {
     private int courseId; // Moodle course id
     private String name; // versapath capsule name
-    List<SkillAtom> skillAtoms;
+    private List<SkillAtom> skillAtoms;
 }

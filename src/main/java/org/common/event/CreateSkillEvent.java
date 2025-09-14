@@ -12,6 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class CreateSkillEvent {
-    String capsuleName;
-    List<String> atoms;
+    private String capsuleName;
+    private List<String> atoms;
 }

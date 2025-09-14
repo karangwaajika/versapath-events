@@ -14,8 +14,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TalentRouteEvent {
-    UUID id;
-    String name;
+    private UUID id;
+    private String name;
     private String description;
-    List<Map<UUID, Integer>> growthTracks;
+    private List<Map<UUID, Integer>> growthTracks;
 }
