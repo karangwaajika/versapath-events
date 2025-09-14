@@ -19,6 +19,6 @@ public class SkillCapsuleEvent {
     private int moodleCourseId;
     private String description;
     private String difficulty;
-    String proficiencyLevel;
-    List<Map<UUID, Integer>> skillAtom; // atom ID with its sequence order
+    private String proficiencyLevel;
+    private List<Map<UUID, Integer>> skillAtom; // atom ID with its sequence order
 }
