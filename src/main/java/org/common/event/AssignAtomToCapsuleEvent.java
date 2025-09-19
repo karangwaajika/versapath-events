@@ -15,5 +15,5 @@ import java.util.UUID;
 @AllArgsConstructor
 public class AssignAtomToCapsuleEvent {
     private int moodleCourseId;
-    private List<Map<UUID, Integer>> skillAtom; // atom ID with its sequence order
+    private List<String> atoms;
 }
