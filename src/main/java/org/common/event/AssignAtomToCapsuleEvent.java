@@ -6,8 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-import java.util.Map;
-import java.util.UUID;
 
 @Data
 @Builder
@@ -15,5 +13,6 @@ import java.util.UUID;
 @AllArgsConstructor
 public class AssignAtomToCapsuleEvent {
     private int moodleCourseId;
+    private String courseName;
     private List<String> atoms;
 }
