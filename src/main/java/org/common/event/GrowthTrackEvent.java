@@ -16,6 +16,7 @@ import java.util.UUID;
 public class GrowthTrackEvent {
     private UUID id;
     private String name;
+    private String image;
     private String description;
     private List<Map<UUID, Integer>> skillCapsules; // capsule ID with its sequence order
 }
