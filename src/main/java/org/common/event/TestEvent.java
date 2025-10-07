@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TestEvent {
-    String name;
-    String location;
-    int age;
-    int year;
+    private String name;
+    private String location;
+    private int age;
+    private int year;
 }
