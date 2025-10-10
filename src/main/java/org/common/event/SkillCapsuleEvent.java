@@ -21,4 +21,5 @@ public class SkillCapsuleEvent {
     private String difficulty;
     private String proficiencyLevel;
     private List<Map<UUID, Integer>> skillAtom; // atom ID with its sequence order
+    private List<UUID> clusters;
 }
