@@ -15,6 +15,7 @@ import java.util.UUID;
 public class AssessmentResultEvent {
     private UUID userId;
     private UUID assessmentId;
+    private UUID capsuleId;
     private String assessmentName;
     private int moodleQuizId;
     private double grade;
