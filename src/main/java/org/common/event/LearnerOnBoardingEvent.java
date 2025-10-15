@@ -13,5 +13,6 @@ import java.util.UUID;
 @Builder
 public class LearnerOnBoardingEvent {
     private UUID learnerId;
+    private UUID talentRouteId;
     private boolean requiresOnboarding;
 }
