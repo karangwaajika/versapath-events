@@ -14,5 +14,6 @@ import java.util.UUID;
 public class LearnerOnBoardingEvent {
     private UUID learnerId;
     private UUID talentRouteId;
+    private UUID growthTrackId;
     private boolean requiresOnboarding;
 }
