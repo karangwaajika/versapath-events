@@ -19,6 +19,7 @@ public class AssessmentResultEvent {
     private String assessmentName;
     private int moodleQuizId;
     private double grade;
+    private boolean isPassed;
     private LocalDateTime timeStart;
     private LocalDateTime timeFinish;
     private int attemptNumber;
